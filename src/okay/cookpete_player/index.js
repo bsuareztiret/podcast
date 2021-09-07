@@ -1,16 +1,7 @@
-import players from './players' /* eslint-disable-line */
-import { createReactPlayer } from './ReactPlayer' /* eslint-disable-line */
+import players from './players'
+import { createReactPlayer } from './ReactPlayer'
 
 // Fall back to FilePlayer if nothing else can play the URL
-const hello = () => {
-    const len = players.len - 1
-    const fallback = players[len] /* eslint-disable-line */
+const fallback = players[players.length - 1]
 
-    const Yo = createReactPlayer(players, fallback);
-    return (
-        <><Yo /></>
-    )
-}
-
-export default hello;
-
+export default createReactPlayer(players, fallback)

@@ -95,7 +95,8 @@ export default class Mixcloud extends Component {
     // weird dialog appearing when loading a new track
     return (
       <iframe
-        title="Oakyyyyytt"
+        title={`https://www.mixcloud.com/widget/iframe/?${query}`}
+
         key={id}
         ref={this.ref}
         style={style}

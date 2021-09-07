@@ -104,7 +104,7 @@ export default class Kaltura extends Component {
     }
     return (
       <iframe
-        title="Oakyyyyy"
+        title={this.props.url}
         ref={this.ref}
         src={this.props.url}
         frameBorder='0'

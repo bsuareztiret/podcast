@@ -100,8 +100,7 @@ export default class Streamable extends Component {
     }
     return (
       <iframe
-        title="Oakyyyyycccc"
-
+        title={`https://streamable.com/o/${id}`}
         ref={this.ref}
         src={`https://streamable.com/o/${id}`}
         frameBorder='0'

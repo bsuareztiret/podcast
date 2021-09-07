@@ -8,16 +8,16 @@ import ReactPlayer from './cookpete_player/index';
 
 import background from "./assets/coupeìdeìcaleì2.jpg";
 
-import st1 from "./assets/area/Sans_titre-1.jpg";
-import st2 from "./assets/area/Sans_titre-2.jpg";
-import st3 from "./assets/area/Sans_titre-3.jpg";
-import st4 from "./assets/area/Sans_titre-4.jpg";
-import st5 from "./assets/area/Sans_titre-5.jpg";
-import st6 from "./assets/area/Sans_titre-6.jpg";
-import st7 from "./assets/area/Sans_titre-7.jpg";
-import st8 from "./assets/area/Sans_titre-8.jpg";
-import st9 from "./assets/area/Sans_titre-9.jpg";
-import st10 from "./assets/area/Sans_titre-10.jpg";
+import st1 from "./assets/area/Sanstitre-1.jpg";
+import st2 from "./assets/area/Sanstitre-2.jpg";
+import st3 from "./assets/area/Sanstitre-3.jpg";
+import st4 from "./assets/area/Sanstitre-4.jpg";
+import st5 from "./assets/area/Sanstitre-5.jpg";
+import st6 from "./assets/area/Sanstitre-6.jpg";
+import st7 from "./assets/area/Sanstitre-7.jpg";
+import st8 from "./assets/area/Sanstitre-8.jpg";
+import st9 from "./assets/area/Sanstitre-9.jpg";
+import st10 from "./assets/area/Sanstitre-10.jpg";
 
 import icon1 from "./assets/areaIcon/icon_1.png";
 import icon2 from "./assets/areaIcon/icon_2.png";

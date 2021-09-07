@@ -108,7 +108,7 @@ export default class SoundCloud extends Component {
     }
     return (
       <iframe
-        title="Oakyyyyyeee"
+        title={`https://w.soundcloud.com/player/?url=${encodeURIComponent(this.props.url)}`}
         ref={this.ref}
         src={`https://w.soundcloud.com/player/?url=${encodeURIComponent(this.props.url)}`}
         style={style}
